@@ -2,13 +2,11 @@
 from google import genai
 from google.genai import types
 import os
-from credential import your_api_key
+
 
 class Chatbot:
     def __init__(self):
-        api_key = your_api_key
-        self.client = genai.Client(api_key=api_key)
-        
+        self.client = genai.Client(api_key="AIzaSyBdfaTyD8rj7HhLMjVOv-Y-M7UhApR8J4k")
         
     def get_response(self,user_input):
         response = self.client.models.generate_content(
