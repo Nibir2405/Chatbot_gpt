@@ -7,6 +7,12 @@ A simple Python chatbot using Google Gemini API (via `google-genai`).
 - Connects to Google Gemini (`gemini-2.0-flash`) for conversational AI.
 - Easily extendable for your own projects.
 
+## Screenshot
+
+![Chatbot Screenshot](Screenshot.png)
+
+
+
 ## Setup
 
 ### 1. Clone the repository
